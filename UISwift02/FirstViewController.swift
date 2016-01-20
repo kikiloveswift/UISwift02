@@ -55,8 +55,8 @@ class FirstViewController: UIViewController {
     //TODO: BUTTONCLICK
     func btnClick( button : UIButton! ){
         let sView = button.superview
-        let label1 = (sView?.viewWithTag(100)as?UILabel
-        button.titleLabel?.text = label1?.text
+//        let label1 = (sView?.viewWithTag(100)as?UILabel
+//        button.titleLabel?.text = label1?.text
         
         
     
