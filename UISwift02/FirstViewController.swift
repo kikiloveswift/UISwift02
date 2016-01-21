@@ -12,22 +12,22 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+
         self.initUI()
-        
-        
-        
-        
-        
+
+
+
+
+
     }
 
     /**
      初始化UI
-     
+
      - returns: void
      */
     func initUI(){
-        
+
         self.title                = "首页"
         self.view.backgroundColor = UIColor.brownColor()
 
@@ -39,29 +39,40 @@ class FirstViewController: UIViewController {
         label.textAlignment       = NSTextAlignment.Center
         label.textColor           = UIColor.lightGrayColor()
         label.text                = "第一个控制器"
-        label.tag = 100;
+        label.tag                 = 100;
         self.view .addSubview(label)
-        
+
         //TODO: UIButton
-        let button = UIButton()
-        button.backgroundColor = UIColor.grayColor()
-        button.frame = CGRectMake((KScreenWidth - 100) / 2, 500, 100, 50)
+        let button                = UIButton()
+        button.backgroundColor    = UIColor.grayColor()
+        button.frame              = CGRectMake((KScreenWidth - 200) / 2, 500, 200, 50)
         button .setTitle("", forState: UIControlState.Normal)
+        button .addTarget(self, action: "btnClick:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view .addSubview(button)
-        
+
+
 
     }
-    
+
     //TODO: BUTTONCLICK
     func btnClick( button : UIButton! ){
-        let sView = button.superview
-//        let label1 = (sView?.viewWithTag(100)as?UILabel
-//        button.titleLabel?.text = label1?.text
-        
-        
-    
+
+        let sView                 = button.superview
+        let label1                = sView?.viewWithTag(100) as? UILabel
+        button.setTitle(label1?.text, forState: UIControlState.Normal)
+        let str                   = self.changeButtonColor(button)
+        print(str)
+
+
     }
-    
+
+    //TODO: FUNCWithParams
+    func changeButtonColor(button : UIButton!) ->(NSString!){
+
+        let str                   = button.titleLabel?.text
+        return str;
+    }
+
 
     /*
     // MARK: - Navigation
