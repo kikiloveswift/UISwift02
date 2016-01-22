@@ -12,7 +12,6 @@
 		FC10FB831C4E84B900EEA8C6 /* UISwift02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10FB821C4E84B900EEA8C6 /* UISwift02Tests.swift */; };
 		FC10FB8E1C4E84B900EEA8C6 /* UISwift02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10FB8D1C4E84B900EEA8C6 /* UISwift02UITests.swift */; };
 		FC10FB9D1C4E858F00EEA8C6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10FB9C1C4E858F00EEA8C6 /* FirstViewController.swift */; };
-		FC10FB9F1C4E859700EEA8C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10FB9E1C4E859700EEA8C6 /* SecondViewController.swift */; };
 		FC396F5F1C4F8285005873FB /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC396F5E1C4F8285005873FB /* Macro.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		FC10FB8D1C4E84B900EEA8C6 /* UISwift02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwift02UITests.swift; sourceTree = "<group>"; };
 		FC10FB8F1C4E84B900EEA8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC10FB9C1C4E858F00EEA8C6 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FC10FB9E1C4E859700EEA8C6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FC396F5D1C4F73B6005873FB /* UISwift02.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwift02.pch; sourceTree = "<group>"; };
 		FC396F5E1C4F8285005873FB /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 				FC10FB6D1C4E84B900EEA8C6 /* AppDelegate.swift */,
 				FC396F5E1C4F8285005873FB /* Macro.swift */,
 				FC10FB9C1C4E858F00EEA8C6 /* FirstViewController.swift */,
-				FC10FB9E1C4E859700EEA8C6 /* SecondViewController.swift */,
 				FC396F5D1C4F73B6005873FB /* UISwift02.pch */,
 				FC10FB741C4E84B900EEA8C6 /* Assets.xcassets */,
 				FC10FB791C4E84B900EEA8C6 /* Info.plist */,
@@ -257,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC396F5F1C4F8285005873FB /* Macro.swift in Sources */,
-				FC10FB9F1C4E859700EEA8C6 /* SecondViewController.swift in Sources */,
 				FC10FB6E1C4E84B900EEA8C6 /* AppDelegate.swift in Sources */,
 				FC10FB9D1C4E858F00EEA8C6 /* FirstViewController.swift in Sources */,
 			);

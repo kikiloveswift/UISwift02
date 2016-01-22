@@ -61,6 +61,7 @@ class FirstViewController: UIViewController {
         let label1                = sView?.viewWithTag(100) as? UILabel
         button.setTitle(label1?.text, forState: UIControlState.Normal)
         let str                   = self.changeButtonColor(button)
+        
         print(str)
 
 
@@ -70,18 +71,10 @@ class FirstViewController: UIViewController {
     func changeButtonColor(button : UIButton!) ->(NSString!){
 
         let str                   = button.titleLabel?.text
+        
         return str;
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }
